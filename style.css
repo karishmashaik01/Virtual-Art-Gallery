@@ -1,0 +1,245 @@
+/* Style for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light cement background */
+}
+
+/* Style for the header */
+header {
+    background-color: #2c3e50; /* Dark grey background for the header */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for the header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px; /* Slightly increase the spacing between letters */
+}
+/* Style for the first gallery item (Mona Lisa) */
+.gallery-item.item-1 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.gallery-item.item-1 img {
+    width: 350px; /* Decrease the image size */
+    height: 500px; /* Maintain aspect ratio */
+    margin-right: 80px; /* Space between the image and the text */
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+/* Style for the title (h2) */
+.gallery-item.item-1 h2 {
+    font-size: 1.8rem;
+    color: #333; /* Darker color for the title */
+    margin: 10px 0; /* Margin to create space around the title */
+    margin-top: 80px;
+}
+
+/* Style for the artist's name (p) */
+.gallery-item.item-1 p:first-of-type {
+    font-weight: bold;
+    color: #555; /* Slightly lighter color than the title */
+    margin-bottom: 8px; /* Space between artist name and the description */
+}
+
+/* Style for the description (p) */
+.gallery-item.item-1 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #666; /* Light grey color for the description */
+    line-height: 1.6; /* Improved readability with increased line spacing */
+    text-align: justify; /* Align text for a neat appearance */
+    max-width: 800px; /* Limit the width for better readability */
+    
+
+}
+/* Style for the second gallery item (Pearl Earrings) */
+.gallery-item.item-2 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: flex-end; /* Align the content to the right side */
+}
+
+/* Position the text content to the left of the image */
+.gallery-item.item-2 .info {
+    order: 1; /* Ensure the text content comes first */
+    text-align: left; /* Align the text content to the left */
+    max-width: 800px; /* Limit the width for better readability */
+    margin-right: 20px; /* Space between the text and the image */
+}
+
+/* Style for the image */
+.gallery-item.item-2 img {
+    order: 2; /* Position the image after the text */
+    width: 350px; /* Set the image width */
+    height: 500px; /* Set the image height */
+    border-radius: 40px; /* Rounded corners for the image */
+    margin-left: 80; /* Align the image flush with the right side */
+    margin-top: 70px; /* Adjust the top margin for spacing */
+    margin-left: 80px;
+    margin-right: 50px;
+   
+}
+
+/* Style for the title (h2) */
+.gallery-item.item-2 h2 {
+    font-size: 1.8rem;
+    color: #333; /* Darker color for the title */
+    margin: 10px 0; /* Margin to create space around the title */
+    margin-top: 80px;
+}
+
+/* Style for the artist's name (first paragraph) */
+.gallery-item.item-2 p:first-of-type {
+    font-weight: bold;
+    color: #555; /* Slightly lighter color than the title */
+    margin-bottom: 8px; /* Space between artist name and the description */
+}
+
+/* Style for the description (second paragraph) */
+.gallery-item.item-2 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #666; /* Light grey color for the description */
+    line-height: 1.6; /* Improved readability with increased line spacing */
+    text-align: justify;
+    max-width: 800px;
+    
+}
+.gallery-item.item-3 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.gallery-item.item-3 img {
+    width: 350px; /* Decrease the image size */
+    height: 500px; /* Maintain aspect ratio */
+    margin-right: 80px; /* Space between the image and the text */
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+/* Style for the title (h2) */
+.gallery-item.item-3 h2 {
+    font-size: 1.8rem;
+    color: #333; /* Darker color for the title */
+    margin: 10px 0; /* Margin to create space around the title */
+    margin-top: 80px;
+}
+
+/* Style for the artist's name (p) */
+.gallery-item.item-3 p:first-of-type {
+    font-weight: bold;
+    color: #555; /* Slightly lighter color than the title */
+    margin-bottom: 8px; /* Space between artist name and the description */
+}
+
+/* Style for the description (p) */
+.gallery-item.item-3 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #666; /* Light grey color for the description */
+    line-height: 1.6; /* Improved readability with increased line spacing */
+    text-align: justify; /* Align text for a neat appearance */
+    max-width: 800px; /* Limit the width for better readability */
+}
+/* Style for the second gallery item (Pearl Earrings) */
+.gallery-item.item-4 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content: flex-end; /* Align the content to the right side */
+}
+
+/* Position the text content to the left of the image */
+.gallery-item.item-4 .info {
+    order: 1; /* Ensure the text content comes first */
+    text-align: left; /* Align the text content to the left */
+    max-width: 800px; /* Limit the width for better readability */
+    margin-right: 20px; /* Space between the text and the image */
+}
+
+/* Style for the image */
+.gallery-item.item-4 img {
+    order: 2; /* Position the image after the text */
+    width: 350px; /* Set the image width */
+    height: 500px; /* Set the image height */
+    border-radius: 40px; /* Rounded corners for the image */
+    margin-left: 80; /* Align the image flush with the right side */
+    margin-top: 70px; /* Adjust the top margin for spacing */
+    margin-left: 80px;
+    margin-right: 50px;
+   
+}
+
+/* Style for the title (h2) */
+.gallery-item.item-4 h2 {
+    font-size: 1.8rem;
+    color: #333; /* Darker color for the title */
+    margin: 10px 0; /* Margin to create space around the title */
+    margin-top: 80px;
+}
+
+/* Style for the artist's name (first paragraph) */
+.gallery-item.item-4 p:first-of-type {
+    font-weight: bold;
+    color: #555; /* Slightly lighter color than the title */
+    margin-bottom: 8px; /* Space between artist name and the description */
+}
+
+/* Style for the description (second paragraph) */
+.gallery-item.item-4 p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #666; /* Light grey color for the description */
+    line-height: 1.6; /* Improved readability with increased line spacing */
+    text-align: justify;
+    max-width: 800px;
+    
+}
+/* Responsive design */
+@media (max-width: 1200px) {
+    .gallery-item img {
+        width: 300px; /* Adjust image size for larger screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .gallery-item .info {
+        max-width: 600px; /* Adjust text container width */
+    }
+}
+
+@media (max-width: 992px) {
+    .gallery-item {
+        flex-direction: column; /* Stack text and image vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .gallery-item img {
+        margin: 20px 0; /* Margin for vertical spacing */
+    }
+
+    .gallery-item .info {
+        margin-right: 0; /* Remove margin for stacked layout */
+        text-align: center; /* Center align text */
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-item img {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .gallery-item .info {
+        max-width: 100%; /* Full width for smaller screens */
+        margin-right: 0; /* Remove margin */
+        padding: 0 10px; /* Add some padding */
+    }
+}
